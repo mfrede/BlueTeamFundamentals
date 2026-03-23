@@ -1,0 +1,8 @@
+timestamp,event_type,host,username,indicator,detail,severity
+2026-03-12T08:00:00,email,WKSTN-19,jrivera,billing@secure-invoice.example,Phishing message with Excel attachment,Medium
+2026-03-12T08:08:00,process,WKSTN-19,jrivera,powershell.exe,PowerShell launched from Excel macro,High
+2026-03-12T08:16:00,network,WKSTN-19,jrivera,203.0.113.88,Outbound connection to payload host,High
+2026-03-12T08:24:00,auth,SRV-FILE-02,jrivera,10.0.3.19,SMB logon to file server,High
+2026-03-12T08:32:00,process,SRV-FILE-02,jrivera,7z.exe,Archive created in temp directory,High
+2026-03-12T08:40:00,network,SRV-FILE-02,jrivera,203.0.113.200,Archive uploaded externally,Critical
+2026-03-12T08:48:00,process,SRV-FILE-02,jrivera,rclone.exe,Cloud sync tool executed from user profile,Critical
