@@ -1,0 +1,290 @@
+timestamp,log_source,event_type,src_ip,dest_ip,user,action,bytes_in,bytes_out,dest_port,protocol,description,event_id,mitre_tactic,mitre_tech
+2025-02-20 08:00:00,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,363,114,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:00,webserver01,authentication,198.51.100.10,10.0.1.10,administrator,failed,397,137,22,SSH,Failed password from 198.51.100.10 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:08,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,206,194,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:15,webserver01,authentication,198.51.100.10,10.0.1.10,admin,failed,259,112,22,SSH,Failed password from 198.51.100.10 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:16,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,270,131,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:24,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,257,117,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:30,webserver01,authentication,198.51.100.10,10.0.1.10,svcaccount,failed,271,158,22,SSH,Failed password from 198.51.100.10 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:32,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,388,113,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:40,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,373,194,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:48,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,339,111,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:00:56,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,351,154,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:04,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,208,103,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:12,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,223,127,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:20,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,259,164,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:28,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,354,103,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:36,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,343,125,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:44,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,383,183,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:01:52,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,379,169,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:00,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,307,128,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:00,webserver01,authentication,198.51.100.11,10.0.1.10,root,failed,241,147,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:08,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,314,175,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:15,webserver01,authentication,198.51.100.11,10.0.1.10,root,failed,253,185,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:16,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,271,100,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:24,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,394,120,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:30,webserver01,authentication,198.51.100.11,10.0.1.10,root,failed,379,187,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:32,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,378,154,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:40,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,287,135,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:45,webserver01,authentication,198.51.100.11,10.0.1.10,admin,failed,355,181,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:48,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,239,127,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:02:56,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,395,143,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:00,webserver01,authentication,198.51.100.11,10.0.1.10,administrator,failed,336,193,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:04,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,226,111,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:12,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,297,112,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:15,webserver01,authentication,198.51.100.11,10.0.1.10,administrator,failed,241,159,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:20,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,291,144,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:28,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,354,133,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:30,webserver01,authentication,198.51.100.11,10.0.1.10,svcaccount,failed,269,181,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:36,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,211,193,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:44,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,317,168,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:45,webserver01,authentication,198.51.100.11,10.0.1.10,jsmith,failed,256,187,22,SSH,Failed password from 198.51.100.11 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:03:52,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,231,148,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:00,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,220,170,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:00,webserver01,authentication,198.51.100.12,10.0.1.10,admin,failed,258,104,22,SSH,Failed password from 198.51.100.12 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:08,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,275,180,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:15,webserver01,authentication,198.51.100.12,10.0.1.10,root,failed,302,134,22,SSH,Failed password from 198.51.100.12 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:16,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,358,146,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:24,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,347,124,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:30,webserver01,authentication,198.51.100.12,10.0.1.10,admin,failed,254,172,22,SSH,Failed password from 198.51.100.12 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:32,webserver01,authentication,203.0.113.50,10.0.1.10,admin,failed,380,108,22,SSH,Failed password for admin from 203.0.113.50 port 22 ssh2,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:45,webserver01,authentication,198.51.100.12,10.0.1.10,root,failed,254,183,22,SSH,Failed password from 198.51.100.12 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:04:45,webserver01,authentication,203.0.113.50,10.0.1.10,admin,success,350,250,22,SSH,Accepted password for admin from 203.0.113.50 port 22 ssh2,4624,Initial Access,T1078 – Valid Accounts
+2025-02-20 08:05:00,webserver01,authentication,198.51.100.12,10.0.1.10,svcaccount,failed,301,182,22,SSH,Failed password from 198.51.100.12 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:06:00,webserver01,authentication,198.51.100.13,10.0.1.10,administrator,failed,267,117,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:06:15,webserver01,authentication,198.51.100.13,10.0.1.10,administrator,failed,390,171,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:06:30,webserver01,authentication,198.51.100.13,10.0.1.10,jsmith,failed,267,195,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:06:45,webserver01,authentication,198.51.100.13,10.0.1.10,jsmith,failed,309,174,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:07:00,webserver01,authentication,198.51.100.13,10.0.1.10,svcaccount,failed,292,128,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:07:15,webserver01,authentication,198.51.100.13,10.0.1.10,administrator,failed,330,163,22,SSH,Failed password from 198.51.100.13 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:08:00,webserver01,authentication,198.51.100.14,10.0.1.10,admin,failed,228,119,22,SSH,Failed password from 198.51.100.14 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:08:15,webserver01,authentication,198.51.100.14,10.0.1.10,administrator,failed,374,154,22,SSH,Failed password from 198.51.100.14 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:08:30,webserver01,authentication,198.51.100.14,10.0.1.10,jsmith,failed,216,149,22,SSH,Failed password from 198.51.100.14 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:09:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1867,3826170,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:10:00,webserver01,authentication,198.51.100.15,10.0.1.10,jsmith,failed,319,167,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:10:15,webserver01,authentication,198.51.100.15,10.0.1.10,root,failed,341,101,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:10:30,webserver01,authentication,198.51.100.15,10.0.1.10,admin,failed,374,168,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:10:45,webserver01,authentication,198.51.100.15,10.0.1.10,root,failed,396,182,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:11:00,webserver01,authentication,198.51.100.15,10.0.1.10,root,failed,228,137,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:11:15,webserver01,authentication,198.51.100.15,10.0.1.10,svcaccount,failed,240,158,22,SSH,Failed password from 198.51.100.15 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:12:00,webserver01,authentication,198.51.100.16,10.0.1.10,root,failed,328,197,22,SSH,Failed password from 198.51.100.16 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:12:15,webserver01,authentication,198.51.100.16,10.0.1.10,administrator,failed,329,113,22,SSH,Failed password from 198.51.100.16 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:12:30,webserver01,authentication,198.51.100.16,10.0.1.10,root,failed,363,164,22,SSH,Failed password from 198.51.100.16 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:12:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1113,1934473,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:12:55,firewall01,network,10.0.0.44,142.250.80.46,mmartinez,allowed,83034,9549,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:14:00,webserver01,authentication,198.51.100.17,10.0.1.10,administrator,failed,239,147,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:14:15,webserver01,authentication,198.51.100.17,10.0.1.10,administrator,failed,338,199,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:14:30,webserver01,authentication,198.51.100.17,10.0.1.10,jsmith,failed,200,176,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:14:45,webserver01,authentication,198.51.100.17,10.0.1.10,root,failed,325,102,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:15:00,webserver01,authentication,198.51.100.17,10.0.1.10,admin,failed,292,139,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:15:15,webserver01,authentication,198.51.100.17,10.0.1.10,administrator,failed,214,130,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:15:30,webserver01,authentication,198.51.100.17,10.0.1.10,jsmith,failed,220,110,22,SSH,Failed password from 198.51.100.17 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:15:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,775,2609250,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:15:45,proxy01,web_request,10.0.3.87,93.184.216.34,tjones,allowed,45730,1224,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:16:00,webserver01,authentication,198.51.100.18,10.0.1.10,svcaccount,failed,217,197,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:16:15,webserver01,authentication,198.51.100.18,10.0.1.10,jsmith,failed,396,116,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:16:30,webserver01,authentication,198.51.100.18,10.0.1.10,administrator,failed,368,160,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:16:45,webserver01,authentication,198.51.100.18,10.0.1.10,jsmith,failed,242,133,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:17:00,webserver01,authentication,198.51.100.18,10.0.1.10,jsmith,failed,355,154,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:17:15,webserver01,authentication,198.51.100.18,10.0.1.10,administrator,failed,338,196,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:17:30,webserver01,authentication,198.51.100.18,10.0.1.10,administrator,failed,382,139,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:17:45,webserver01,authentication,198.51.100.18,10.0.1.10,svcaccount,failed,371,183,22,SSH,Failed password from 198.51.100.18 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:18:00,webserver01,authentication,198.51.100.19,10.0.1.10,svcaccount,failed,332,157,22,SSH,Failed password from 198.51.100.19 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:18:15,webserver01,authentication,198.51.100.19,10.0.1.10,admin,failed,263,128,22,SSH,Failed password from 198.51.100.19 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:18:30,webserver01,authentication,198.51.100.19,10.0.1.10,admin,failed,286,102,22,SSH,Failed password from 198.51.100.19 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:18:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,736,1948941,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:18:45,webserver01,authentication,198.51.100.19,10.0.1.10,jsmith,failed,341,129,22,SSH,Failed password from 198.51.100.19 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:19:00,webserver01,authentication,198.51.100.19,10.0.1.10,jsmith,failed,256,100,22,SSH,Failed password from 198.51.100.19 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:19:36,proxy01,web_request,10.0.3.18,93.184.216.34,mmartinez,allowed,34817,2480,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:20:00,webserver01,authentication,198.51.100.20,10.0.1.10,admin,failed,258,108,22,SSH,Failed password from 198.51.100.20 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:20:15,webserver01,authentication,198.51.100.20,10.0.1.10,admin,failed,284,109,22,SSH,Failed password from 198.51.100.20 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:20:30,webserver01,authentication,198.51.100.20,10.0.1.10,jsmith,failed,260,135,22,SSH,Failed password from 198.51.100.20 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:21:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1633,2151995,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:22:00,webserver01,authentication,198.51.100.21,10.0.1.10,svcaccount,failed,254,169,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:22:15,webserver01,authentication,198.51.100.21,10.0.1.10,administrator,failed,385,173,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:22:30,webserver01,authentication,198.51.100.21,10.0.1.10,jsmith,failed,321,131,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:22:45,webserver01,authentication,198.51.100.21,10.0.1.10,svcaccount,failed,304,124,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:23:00,webserver01,authentication,198.51.100.21,10.0.1.10,admin,failed,224,184,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:23:15,webserver01,authentication,198.51.100.21,10.0.1.10,svcaccount,failed,290,154,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:23:30,webserver01,authentication,198.51.100.21,10.0.1.10,svcaccount,failed,319,193,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:23:45,webserver01,authentication,198.51.100.21,10.0.1.10,admin,failed,372,183,22,SSH,Failed password from 198.51.100.21 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:23:50,proxy01,web_request,10.0.2.70,23.45.67.89,alee,allowed,55604,3492,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:24:00,webserver01,authentication,198.51.100.22,10.0.1.10,admin,failed,215,151,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:24:15,webserver01,authentication,198.51.100.22,10.0.1.10,root,failed,227,131,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:24:30,webserver01,authentication,198.51.100.22,10.0.1.10,administrator,failed,248,168,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:24:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1057,2681771,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:24:45,webserver01,authentication,198.51.100.22,10.0.1.10,svcaccount,failed,235,154,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:25:00,webserver01,authentication,198.51.100.22,10.0.1.10,administrator,failed,271,159,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:25:07,proxy01,web_request,10.0.2.17,151.101.1.140,mmartinez,allowed,54131,8056,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:25:14,firewall01,network,10.0.0.51,142.250.80.46,bwilson,allowed,129384,32160,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:25:15,webserver01,authentication,198.51.100.22,10.0.1.10,administrator,failed,219,156,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:25:30,webserver01,authentication,198.51.100.22,10.0.1.10,jsmith,failed,225,106,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:25:45,webserver01,authentication,198.51.100.22,10.0.1.10,jsmith,failed,203,111,22,SSH,Failed password from 198.51.100.22 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:26:00,webserver01,authentication,198.51.100.23,10.0.1.10,administrator,failed,304,162,22,SSH,Failed password from 198.51.100.23 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:26:15,webserver01,authentication,198.51.100.23,10.0.1.10,svcaccount,failed,254,151,22,SSH,Failed password from 198.51.100.23 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:26:30,webserver01,authentication,198.51.100.23,10.0.1.10,admin,failed,242,148,22,SSH,Failed password from 198.51.100.23 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:26:45,webserver01,authentication,198.51.100.23,10.0.1.10,admin,failed,299,133,22,SSH,Failed password from 198.51.100.23 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:27:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1738,2383444,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:28:00,webserver01,authentication,198.51.100.24,10.0.1.10,root,failed,308,189,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:28:15,webserver01,authentication,198.51.100.24,10.0.1.10,jsmith,failed,369,191,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:28:30,webserver01,authentication,198.51.100.24,10.0.1.10,svcaccount,failed,239,124,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:28:45,webserver01,authentication,198.51.100.24,10.0.1.10,root,failed,255,107,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:29:00,webserver01,authentication,198.51.100.24,10.0.1.10,jsmith,failed,388,169,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:29:15,webserver01,authentication,198.51.100.24,10.0.1.10,admin,failed,391,140,22,SSH,Failed password from 198.51.100.24 – distributed brute force,4625,Credential Access,T1110 – Brute Force
+2025-02-20 08:30:40,firewall01,network,10.0.1.10,185.220.101.45,admin,allowed,1969,2938144,443,HTTPS,Large outbound transfer to suspicious external IP 185.220.101.45,5156,Exfiltration,T1041 – Exfiltration Over C2 Channel
+2025-02-20 08:31:13,webserver01,authentication,10.0.0.51,10.0.1.10,alee,failed,328,167,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 08:37:34,webserver01,authentication,10.0.0.78,10.0.1.10,tjones,failed,294,136,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 08:38:12,firewall01,network,10.0.0.62,13.107.42.14,mmartinez,allowed,183903,13167,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:38:59,proxy01,web_request,10.0.1.31,151.101.1.140,mmartinez,allowed,62560,3037,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:40:51,proxy01,web_request,10.0.2.43,151.101.1.140,alee,allowed,15527,6383,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:42:18,firewall01,network,10.0.0.56,8.8.8.8,mmartinez,allowed,98040,25952,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:43:07,proxy01,web_request,10.0.3.58,23.45.67.89,tjones,allowed,70230,3344,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:46:18,firewall01,network,10.0.0.56,13.107.42.14,mmartinez,allowed,34480,20392,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:50:24,firewall01,network,10.0.0.74,142.250.80.46,bwilson,allowed,10929,26859,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 08:54:27,proxy01,web_request,10.0.3.68,93.184.216.34,tjones,allowed,58736,3529,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 08:56:01,proxy01,web_request,10.0.1.83,151.101.1.140,alee,allowed,67746,8216,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 09:09:07,proxy01,web_request,10.0.2.15,93.184.216.34,mmartinez,allowed,21551,9042,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 09:19:30,proxy01,web_request,10.0.1.77,151.101.1.140,tjones,allowed,27280,3868,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 09:25:58,webserver01,authentication,10.0.0.51,10.0.1.10,bwilson,failed,247,108,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 09:26:09,webserver01,authentication,10.0.0.64,10.0.1.10,mmartinez,failed,335,101,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 09:26:55,firewall01,network,10.0.0.80,142.250.80.46,mmartinez,allowed,74812,46789,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:34:55,proxy01,web_request,10.0.3.19,93.184.216.34,bwilson,allowed,58545,8381,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 09:44:46,firewall01,network,10.0.0.73,13.107.42.14,alee,allowed,187554,16405,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:48:47,proxy01,web_request,10.0.2.71,93.184.216.34,tjones,allowed,54986,6881,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 09:48:59,firewall01,network,10.0.0.78,142.250.80.46,mmartinez,allowed,69662,19609,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:51:11,firewall01,network,10.0.0.53,13.107.42.14,alee,allowed,75829,8329,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:54:47,firewall01,network,10.0.0.75,13.107.42.14,mmartinez,allowed,131893,33952,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:56:24,webserver01,authentication,10.0.0.66,10.0.1.10,mmartinez,failed,233,144,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 09:59:30,firewall01,network,10.0.0.42,13.107.42.14,alee,allowed,23164,41530,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 09:59:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,233,104,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:01:01,proxy01,web_request,10.0.2.41,151.101.1.140,mmartinez,allowed,67031,9698,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:01:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,182,128,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:02:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,228,110,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:02:55,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,225,99,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:04:01,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,233,114,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:05:03,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,208,111,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:05:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,214,107,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:06:48,proxy01,web_request,10.0.2.42,151.101.1.140,mmartinez,allowed,6231,8622,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:07:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,183,104,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:08:00,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,231,126,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:08:57,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,239,88,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:09:17,firewall01,network,10.0.0.40,8.8.8.8,alee,allowed,16497,16754,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:10:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,248,81,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:11:01,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,183,85,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:12:05,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,234,88,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:13:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,203,83,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:13:14,firewall01,network,10.0.0.38,13.107.42.14,bwilson,allowed,37941,32862,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:13:59,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,228,100,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:14:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,238,100,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:16:00,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,228,97,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:16:05,firewall01,network,10.0.0.35,142.250.80.46,tjones,allowed,131803,48750,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:17:01,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,212,85,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:18:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,182,127,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:19:03,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,186,102,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:19:06,firewall01,network,10.0.0.25,13.107.42.14,alee,allowed,10443,39073,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:19:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,188,129,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:21:05,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,185,128,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:21:55,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,211,92,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:22:55,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,199,95,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:23:57,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,240,122,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:24:56,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,207,109,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:24:58,firewall01,network,10.0.0.24,8.8.8.8,alee,allowed,100619,25557,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:25:50,proxy01,web_request,10.0.3.26,151.101.1.140,alee,allowed,68532,2989,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:25:59,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,227,90,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:27:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,194,129,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:27:57,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,219,86,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:29:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,183,99,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:30:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,228,105,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:30:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,189,117,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:31:26,firewall01,network,10.0.0.86,142.250.80.46,tjones,allowed,81984,33827,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 10:32:05,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,211,86,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:32:59,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,195,130,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:34:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,185,102,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:35:03,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,234,122,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:36:00,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,188,112,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:37:05,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,223,80,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:37:05,proxy01,web_request,10.0.3.79,93.184.216.34,bwilson,allowed,62898,6661,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:37:24,proxy01,web_request,10.0.3.61,23.45.67.89,bwilson,allowed,64614,2442,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:38:01,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,242,86,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:39:01,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,226,120,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:40:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,199,107,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:40:57,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,246,121,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:41:47,proxy01,web_request,10.0.1.56,93.184.216.34,mmartinez,allowed,6854,9751,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:41:59,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,248,129,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:42:23,proxy01,web_request,10.0.3.64,151.101.1.140,bwilson,allowed,18006,4404,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:43:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,239,107,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:44:04,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,214,100,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:44:58,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,191,97,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:46:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,211,128,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:47:02,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,228,101,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:47:27,proxy01,web_request,10.0.2.39,93.184.216.34,tjones,allowed,46359,2958,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:47:55,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,243,100,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:48:57,proxy01,web_request,10.0.2.55,192.0.2.200,CORP\wsmith,allowed,242,93,80,HTTP,GET /update.php?id=ae3f HTTP/1.1 Host:192.0.2.200 – periodic beacon,3,Command and Control,T1071.001 – Web Protocols
+2025-02-20 10:51:46,proxy01,web_request,10.0.2.51,93.184.216.34,alee,allowed,72449,1018,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 10:58:08,firewall01,network,10.0.0.71,13.107.42.14,mmartinez,allowed,155335,13341,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 11:00:51,firewall01,network,10.0.0.23,8.8.8.8,mmartinez,allowed,56810,43049,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 11:02:01,proxy01,web_request,10.0.2.23,93.184.216.34,mmartinez,allowed,58955,9117,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:06:04,proxy01,web_request,10.0.1.16,151.101.1.140,alee,allowed,19953,2070,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:07:44,proxy01,web_request,10.0.2.80,151.101.1.140,mmartinez,allowed,64473,5438,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:13:46,proxy01,web_request,10.0.2.53,151.101.1.140,mmartinez,allowed,77848,1166,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:17:34,proxy01,web_request,10.0.3.73,23.45.67.89,alee,allowed,11764,4335,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:19:08,firewall01,network,10.0.0.25,142.250.80.46,tjones,allowed,188799,21353,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 11:29:29,proxy01,web_request,10.0.1.86,23.45.67.89,tjones,allowed,14150,5526,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:36:09,webserver01,authentication,10.0.0.54,10.0.1.10,mmartinez,failed,317,140,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 11:38:50,proxy01,web_request,10.0.2.19,23.45.67.89,bwilson,allowed,24887,3444,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:42:36,firewall01,network,10.0.0.62,13.107.42.14,alee,allowed,118992,9080,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 11:46:54,proxy01,web_request,10.0.2.70,93.184.216.34,alee,allowed,77255,3369,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:52:10,proxy01,web_request,10.0.1.79,93.184.216.34,tjones,allowed,39816,3330,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:57:00,proxy01,web_request,10.0.1.22,151.101.1.140,tjones,allowed,44251,1474,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 11:58:19,firewall01,network,10.0.0.85,8.8.8.8,alee,allowed,161149,17457,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 12:01:28,firewall01,network,10.0.0.47,13.107.42.14,alee,allowed,54483,48178,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 12:15:58,proxy01,web_request,10.0.3.48,23.45.67.89,alee,allowed,40683,9199,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 12:30:30,proxy01,web_request,10.0.1.26,23.45.67.89,mmartinez,allowed,18154,8213,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 12:42:08,proxy01,web_request,10.0.1.20,93.184.216.34,alee,allowed,69038,4937,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 12:50:04,firewall01,network,10.0.0.60,142.250.80.46,alee,allowed,153621,34223,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 12:54:08,proxy01,web_request,10.0.2.54,151.101.1.140,alee,allowed,64682,6272,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 12:54:54,proxy01,web_request,10.0.2.66,93.184.216.34,bwilson,allowed,61626,6280,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 12:54:59,firewall01,network,10.0.0.30,8.8.8.8,tjones,allowed,70623,30102,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 13:01:17,firewall01,network,10.0.0.74,13.107.42.14,bwilson,allowed,39327,9931,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 13:01:36,proxy01,web_request,10.0.2.21,93.184.216.34,bwilson,allowed,65482,2924,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:01:45,firewall01,network,10.0.0.38,142.250.80.46,tjones,allowed,20965,25202,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 13:09:04,proxy01,web_request,10.0.3.16,23.45.67.89,alee,allowed,42512,4770,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:11:07,webserver01,authentication,10.0.0.57,10.0.1.10,bwilson,failed,220,153,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 13:13:55,proxy01,web_request,10.0.2.47,93.184.216.34,alee,allowed,40976,1132,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:14:42,proxy01,web_request,10.0.1.32,151.101.1.140,alee,allowed,41458,3973,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:19:40,proxy01,web_request,10.0.2.72,93.184.216.34,alee,allowed,50607,7690,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:20:53,proxy01,web_request,10.0.2.64,23.45.67.89,mmartinez,allowed,64878,5949,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:24:58,webserver01,authentication,10.0.0.52,10.0.1.10,tjones,failed,303,115,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 13:29:42,proxy01,web_request,10.0.2.13,93.184.216.34,tjones,allowed,7719,5415,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:31:07,proxy01,web_request,10.0.3.89,93.184.216.34,alee,allowed,64049,8253,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:31:32,proxy01,web_request,10.0.2.38,23.45.67.89,tjones,allowed,37850,3240,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:36:09,firewall01,network,10.0.0.58,142.250.80.46,bwilson,allowed,89658,23803,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 13:39:14,webserver01,authentication,10.0.0.68,10.0.1.10,bwilson,failed,218,168,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 13:41:36,proxy01,web_request,10.0.1.43,23.45.67.89,bwilson,allowed,25585,4929,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:43:06,proxy01,web_request,10.0.1.90,23.45.67.89,bwilson,allowed,45492,8222,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:43:56,firewall01,network,10.0.0.44,13.107.42.14,alee,allowed,139598,31191,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 13:53:44,proxy01,web_request,10.0.1.73,23.45.67.89,mmartinez,allowed,71698,5479,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 13:59:00,webserver01,authentication,10.0.0.68,10.0.1.10,mmartinez,failed,266,126,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 13:59:10,proxy01,web_request,10.0.3.69,151.101.1.140,bwilson,allowed,29586,9494,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:04:14,firewall01,network,10.0.0.33,142.250.80.46,alee,allowed,172702,15128,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:05:45,webserver01,authentication,10.0.0.72,10.0.1.10,mmartinez,failed,261,133,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 14:07:26,firewall01,network,10.0.0.59,8.8.8.8,tjones,allowed,48627,6600,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:16:29,proxy01,web_request,10.0.3.70,151.101.1.140,bwilson,allowed,35340,5720,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:17:09,proxy01,web_request,10.0.2.72,151.101.1.140,bwilson,allowed,17196,5820,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:17:23,firewall01,network,10.0.0.39,13.107.42.14,bwilson,allowed,106787,43175,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:18:59,firewall01,network,10.0.0.39,13.107.42.14,tjones,allowed,26837,32188,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:26:05,proxy01,web_request,10.0.2.68,93.184.216.34,tjones,allowed,39675,4241,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:33:04,firewall01,network,10.0.0.58,13.107.42.14,mmartinez,allowed,184821,31764,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:35:43,proxy01,web_request,10.0.3.77,23.45.67.89,mmartinez,allowed,18176,4180,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:36:31,proxy01,web_request,10.0.2.85,23.45.67.89,alee,allowed,24476,8316,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:42:15,firewall01,network,10.0.0.62,142.250.80.46,tjones,allowed,79941,15433,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 14:45:42,proxy01,web_request,10.0.3.33,93.184.216.34,tjones,allowed,68464,5530,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 14:50:37,webserver01,authentication,10.0.0.79,10.0.1.10,bwilson,failed,202,158,22,SSH,Incorrect password – likely typo,4625,,
+2025-02-20 15:01:08,firewall01,network,10.0.0.36,13.107.42.14,mmartinez,allowed,52357,33956,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 15:01:59,proxy01,web_request,10.0.2.53,23.45.67.89,mmartinez,allowed,5336,5634,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 15:02:20,firewall01,network,10.0.0.55,142.250.80.46,alee,allowed,188131,40141,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 15:10:00,firewall01,network,10.0.0.33,142.250.80.46,bwilson,allowed,133388,19577,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 15:20:27,firewall01,network,10.0.0.88,13.107.42.14,tjones,allowed,105478,33265,443,HTTPS,Normal outbound web traffic,5156,,
+2025-02-20 15:22:59,proxy01,web_request,10.0.3.48,93.184.216.34,tjones,allowed,20525,7818,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 15:45:29,proxy01,web_request,10.0.3.78,151.101.1.140,mmartinez,allowed,68956,9864,443,HTTPS,Normal user web browsing,3,,
+2025-02-20 15:54:55,proxy01,web_request,10.0.1.40,23.45.67.89,alee,allowed,35613,7730,443,HTTPS,Normal user web browsing,3,,
