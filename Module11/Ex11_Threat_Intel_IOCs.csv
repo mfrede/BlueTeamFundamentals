@@ -1,0 +1,11 @@
+ioc_type,indicator,context
+ip,203.0.113.77,C2 server
+ip,203.0.113.88,Malware staging host
+ip,198.51.100.25,Brute-force source
+domain,update-checkin.example,Phishing/C2 domain
+domain,cdn-share-sync.example,Payload domain
+hash,44d88612fea8a8f36de82e1278abb02f,Sample MD5
+hash,275a021bbfb6480f6a4d4a9d2f5f6b4d,Malicious DLL
+url,http://203.0.113.88/ld.ps1,PowerShell payload
+url,https://203.0.113.77/api/checkin,Beacon endpoint
+email,billing@secure-invoice.example,Phishing sender
