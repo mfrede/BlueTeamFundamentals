@@ -1,0 +1,21 @@
+alert_id,timestamp,severity,host,username,src_ip,dest_ip,alert_type,description,queue_status
+A-001,2026-03-10T10:00:00,Low,WKSTN-03,adoyle,10.0.1.44,10.0.0.10,Failed Login,Single failed login to VPN portal,new
+A-002,2026-03-10T10:01:00,Medium,WKSTN-11,svc_backup,10.0.2.9,10.0.0.15,Large File Transfer,Scheduled backup to approved storage,new
+A-003,2026-03-10T10:02:00,Low,SRV-FILE-01,admin_svc,10.0.0.21,10.0.0.25,PowerShell,Signed inventory script executed by admin,new
+A-004,2026-03-10T10:03:00,Low,WKSTN-09,rgreen,10.0.3.55,8.8.8.8,DNS Query Spike,Chrome startup DNS burst,new
+A-005,2026-03-10T10:04:00,Medium,WKSTN-05,kpatel,10.0.1.77,10.0.0.18,New Service,Authorized software deployment service install,new
+A-006,2026-03-10T10:06:00,Medium,WKSTN-14,mturner,198.51.100.25,10.0.0.12,VPN Failed Login Burst,12 failed logins for user mturner from single external IP,new
+A-007,2026-03-10T10:07:00,High,WKSTN-14,mturner,10.0.1.84,203.0.113.77,PowerShell Download,powershell.exe downloaded script from external IP,new
+A-008,2026-03-10T10:08:00,High,WKSTN-14,mturner,10.0.1.84,203.0.113.77,Beaconing,Periodic outbound HTTPS connections every 60 seconds,new
+A-009,2026-03-10T10:09:00,Low,WKSTN-02,dlopez,10.0.5.8,10.0.0.19,USB Inserted,User inserted approved encrypted USB drive,new
+A-010,2026-03-10T10:10:00,Medium,SRV-WEB-02,web_svc,203.0.113.9,10.0.0.40,Web Scan,Multiple 404s from internet source,new
+A-011,2026-03-10T10:11:00,Low,WKSTN-07,jsmith,10.0.4.4,52.96.12.3,Mail Rule Created,User created Outlook rule during mailbox cleanup,new
+A-012,2026-03-10T10:12:00,Medium,WKSTN-12,bnguyen,10.0.1.66,185.199.108.133,Executable Download,Developer downloaded installer from GitHub,new
+A-013,2026-03-10T10:13:00,Low,SRV-PRINT-01,print_svc,10.0.0.33,10.0.0.34,Service Restart,Print spooler restarted after patching,new
+A-014,2026-03-10T10:14:00,High,WKSTN-04,rgreen,10.0.2.4,10.0.0.11,Privilege Group Change,User added to local Administrators group,new
+A-015,2026-03-10T10:15:00,Medium,WKSTN-04,rgreen,10.0.2.4,10.0.0.11,Remote Logon,RDP logon from helpdesk jump host,new
+A-016,2026-03-10T10:16:00,Low,WKSTN-10,adoyle,10.0.1.17,13.107.6.152,MFA Challenge,User approved normal Microsoft 365 sign-in,new
+A-017,2026-03-10T10:17:00,Medium,SRV-DB-01,db_svc,10.0.0.60,10.0.0.61,Failed Job,Backup job failed due to timeout,new
+A-018,2026-03-10T10:18:00,High,WKSTN-08,svc_patch,10.0.0.70,10.0.0.71,Script Host,wscript launched patch validation script,new
+A-019,2026-03-10T10:19:00,Low,WKSTN-01,jchen,10.0.2.90,1.1.1.1,DNS Query Spike,Browser update check,new
+A-020,2026-03-10T10:20:00,Medium,SRV-FILE-01,svc_backup,10.0.0.21,10.0.0.22,Large File Transfer,Nightly backup copy between internal servers,new
